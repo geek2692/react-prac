@@ -1,0 +1,1 @@
+https://velopert.com/3613 06, 07, 08 연습
