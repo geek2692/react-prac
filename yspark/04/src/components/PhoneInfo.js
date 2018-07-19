@@ -52,6 +52,15 @@ class PhoneInfo extends Component {
       });
     }
   }
+
+  shouldComponentUpdate(nextProps, nextState) {
+    if (!this.state.editing 
+        && !nextState.editing 
+        && !nextProps.data !== this.props.data) {
+      return false;
+    }
+    return true;
+  }
   
   render() {
     const style = {
