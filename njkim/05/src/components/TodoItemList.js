@@ -15,20 +15,6 @@ class TodoItemList extends Component {
                 />
             )
         );
-        /*
-        const todoList = todos.map(
-            ({id, text, checked}) => (
-                <TodoItem
-                    id={id}
-                    text={text}
-                    checked={checked}
-                    onToggle={onToggle}
-                    onRemove={onRemove}
-                    key={id}
-                />
-            )
-        );
-        */
         
         return (
             <div>
