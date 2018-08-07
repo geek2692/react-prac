@@ -3,7 +3,7 @@ import './TodoItem.css';
 
 class TodoItem extends Component {
     shouldComponentUpdate(nextProps, nextState) {
-        return this.props.todos !== nextProps.todos;
+        return this.props.checked !== nextProps.checked;
     }
     
     render() {
